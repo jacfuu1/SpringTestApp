@@ -7,7 +7,7 @@ public class MessageRunner implements CommandLineRunner {
 	@Override
 	public void run(String... args)throws Exception{
 		int a=10;
-		System.out.println("Hello Modified Code  SpringBoot!");
+		System.out.println("Hello Modified Code  SpringBoot!"+a);
 		
 	}
 
